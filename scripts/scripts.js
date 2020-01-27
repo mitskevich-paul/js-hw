@@ -142,5 +142,5 @@ third.addEventListener('click', event => {
     });
 let thirdShowElement = document.getElementById('third_show');
 thirdShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/t1qz8aLs/8/");
+    window.open("https://jsfiddle.net/AlfaOne/t1qz8aLs/21/");
 });
