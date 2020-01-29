@@ -144,3 +144,23 @@ let thirdShowElement = document.getElementById('third_show');
 thirdShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/t1qz8aLs/8/");
 });
+
+let fourthElement = document.getElementById('fourth');
+fourth.addEventListener('click', event => { 
+var array = [1, 2, [], [2, 5, 3, [32, 5], 3], 7, 4, [], [3, 3, 5, 7, 8]];
+var sum = 0;
+function maxValue(array) {
+    array.forEach(function(value, index) {
+        Array.isArray(value) ? maxValue(value) : sum += value; 
+    });
+    return sum;
+}
+console.log(maxValue(array));
+allert(`${array},
+sum = ${maxValue(array)}`
+});
+
+let fourthShowElement = document.getElementById('fourth_show');
+fourthShowElement.addEventListener('click', event => {
+    window.open("https://jsfiddle.net/AlfaOne/67zps0vg/1/");
+});
