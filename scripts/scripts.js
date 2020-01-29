@@ -159,5 +159,5 @@ sum = ${maxValue(array)}`)
 
 let fourthShowElement = document.getElementById('fourth_show');
 fourthShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/67zps0vg/1/");
+    window.open("https://jsfiddle.net/AlfaOne/67zps0vg/2/");
 });
