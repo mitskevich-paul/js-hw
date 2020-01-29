@@ -154,7 +154,7 @@ function maxValue(array) {
 }
 console.log(maxValue(array));
 allert(`${array},
-sum = ${maxValue(array)}`
+sum = ${maxValue(array)}`)
 });
 
 let fourthShowElement = document.getElementById('fourth_show');
