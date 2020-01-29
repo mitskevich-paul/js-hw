@@ -96,16 +96,13 @@ second.addEventListener('click', event => {
     let equation = (a,b,c) => {
         let d = (Math.pow(b, 2) - 4*a*c);
         if (d < 0) {
-            alert('Корней нет');
             return[];
         } else if (d === 0) {
             let x = (-b / 2*a);
-            alert(`D = 0, 1 корень (x = ${x})`);
             return[x];
         } else if (d > 0) {
             let x1 = ((-b + Math.sqrt(d) / 2*a));
             let x2 = ((-b - Math.sqrt(d) / 2*a));
-            alert(`D > 0, 2 корня (x1 = ${x1}, x2 = ${x2})`);
             return[x1, x2];
         }
     }
@@ -113,7 +110,7 @@ second.addEventListener('click', event => {
 });
 let secondShowElement = document.getElementById('second_show');
 secondShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/qzn0sd3o/5/");
+    window.open("https://jsfiddle.net/AlfaOne/qzn0sd3o/6/");
 });
 
 let thirdElement = document.getElementById('third');
