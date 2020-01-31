@@ -167,6 +167,44 @@ fourthShowElement.addEventListener('click', event => {
 
 let fifthElement = document.getElementById('fifth');
 fifth.addEventListener('click', event => { 
+let unique = (a) => {
+	let result = [];
+  for (let b of a) {
+  	if(!result.includes(b)) {
+  		result.push(b);
+  	}
+  }
+	return result;
+}
+let a = [1,1,2,3,4,4,4,5,6,7,7,4];
+alert(unique(a));
+
+let array2 = ['п','р','ы','в','е','т'];
+let array1 = ['р','1','2','п'];
+console.log(array1.length);
+console.log(array2.length);
+let ln1 = array1.length;
+let ln2 = array2.length;
+for (let i = 0; i < ln1; ++i) {
+    cache = array1[i];
+    for (let j = 0; j < ln2; ++j)
+        {
+        if (cache == array2[j])
+            {
+            alert('найдено совпадение: ' + cache);
+            break;
+           }
+    	}
+	}
+});
+
+let fifthShowElement = document.getElementById('fifth_show');
+fifthShowElement.addEventListener('click', event => {
+    window.open("https://jsfiddle.net/AlfaOne/532pdLhm/4/");
+});
+
+let sixthElement = document.getElementById('sixth');
+sixth.addEventListener('click', event => { 
 let object1 = {
 money: 100,
 house: 10,
@@ -225,7 +263,7 @@ alert('Объекты отличаются!')
 }
 });
 
-let fifthShowElement = document.getElementById('fifth_show');
-fifthShowElement.addEventListener('click', event => {
+let sixthShowElement = document.getElementById('sixth_show');
+sixthShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/532pdLhm/4/");
 });
