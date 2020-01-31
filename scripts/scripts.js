@@ -144,20 +144,22 @@ thirdShowElement.addEventListener('click', event => {
 
 let fourthElement = document.getElementById('fourth');
 fourth.addEventListener('click', event => { 
-var array = [1, 2, [], [2, 5, 3, [32, 5], 3], 7, 4, [], [3, 3, 5, 7, 8]];
-var sum = 0;
-function maxValue(array) {
-    array.forEach(function(value, index) {
-        Array.isArray(value) ? maxValue(value) : sum += value; 
-    });
-    return sum;
+let array = [8, 11, [], [7, 2, 4, [3, 1], 1], 7, 11, [], [1, 8, 1]];
+function treeSum(array) {
+let sum = 0;
+		array.forEach(elem => {
+				if (Array.isArray(elem)) {
+    			sum += treeSum(elem)
+    		} else {
+    			sum += elem
+    		}
+		});
+  	return sum;
 }
-console.log(maxValue(array));
-allert(`${array},
-sum = ${maxValue(array)}`)
-});
+console.log(treeSum(array));
+alert(treeSum(array));
 
 let fourthShowElement = document.getElementById('fourth_show');
 fourthShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/67zps0vg/2/");
+    window.open("https://jsfiddle.net/AlfaOne/67zps0vg/3/");
 });
