@@ -265,5 +265,5 @@ alert('Объекты отличаются!')
 
 let sixthShowElement = document.getElementById('sixth_show');
 sixthShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/532pdLhm/4/");
+    window.open("https://jsfiddle.net/AlfaOne/532pdLhm/5/");
 });
