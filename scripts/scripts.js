@@ -140,15 +140,14 @@ third.addEventListener('click', event => {
 let thirdShowElement = document.getElementById('third_show');
 thirdShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/t1qz8aLs/22/");
-});
 
 let fourthElement = document.getElementById('fourth');
 fourth.addEventListener('click', event => { 
 let array = [8, 11, [], [7, 2, 4, [3, 1], 1], 7, 11, [], [1, 8, 1]];
 function treeSum(array) {
 let sum = 0;
-		array.forEach(elem => {
-				if (Array.isArray(elem)) {
+	array.forEach(elem => {
+		if (Array.isArray(elem)) {
     			sum += treeSum(elem)
     		} else {
     			sum += elem
@@ -158,6 +157,7 @@ let sum = 0;
 }
 console.log(treeSum(array));
 alert(treeSum(array));
+});
 
 let fourthShowElement = document.getElementById('fourth_show');
 fourthShowElement.addEventListener('click', event => {
