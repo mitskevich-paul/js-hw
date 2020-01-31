@@ -140,6 +140,7 @@ third.addEventListener('click', event => {
 let thirdShowElement = document.getElementById('third_show');
 thirdShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/t1qz8aLs/22/");
+});
 
 let fourthElement = document.getElementById('fourth');
 fourth.addEventListener('click', event => { 
