@@ -139,7 +139,7 @@ third.addEventListener('click', event => {
     });
 let thirdShowElement = document.getElementById('third_show');
 thirdShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/t1qz8aLs/22/");
+    window.open("https://jsfiddle.net/AlfaOne/t1qz8aLs/23/");
 });
 
 let fourthElement = document.getElementById('fourth');
@@ -163,4 +163,69 @@ alert(treeSum(array));
 let fourthShowElement = document.getElementById('fourth_show');
 fourthShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/67zps0vg/3/");
+});
+
+let fifthElement = document.getElementById('fifth');
+fifth.addEventListener('click', event => { 
+let object1 = {
+money: 100,
+house: 10,
+chiks: 3,};
+let object2 = {
+money: 100,
+house: 10,
+chiks: 3,};
+
+let comparision = (object1, object2) => {
+	let result;
+	let obj1array = []; 
+	let obj2array = [];
+  obj1array = Object.keys(object1); 
+  obj2array = Object.keys(object2);
+  let val1array = []; 
+	let val2array = [];
+  val1array = Object.values(object1); 
+  val2array = Object.values(object2);
+  	if (obj1array.length === obj2array.length || val1array.length === val2array.length) {
+      	let leng = 0;
+        while (leng < obj1array.length) {
+        	while (leng < obj2array.length) {
+          	let val1 = obj1array[leng];
+		let val2 = obj2array[leng];
+            leng++;
+            	if (val1 === val2) {
+              		let leng1 = 0;
+      	          while (leng1 < val1array.length) {
+      	            while (leng1 < val2array.length) {
+      	              let val11 = val1array[leng1];
+      	              let val12 = val2array[leng1];
+      	              leng1++;
+      	                if (val11 === val12) {
+                        result = 1;
+      	                } else {
+      	                result = 0;
+      	                }
+      	            } 
+      	         } 
+      	     }  
+        	}  
+			} 
+  }
+  if (result === 1) {
+  return result;
+  } else if (result === 0) {
+  return;
+  }
+}  
+console.log(comparision(object1, object2));
+if (comparision(object1, object2) === 1) {
+alert('Объекты одинаковы!')
+} else {
+alert('Объекты отличаются!')
+}
+});
+
+let fifthShowElement = document.getElementById('fifth_show');
+fifthShowElement.addEventListener('click', event => {
+    window.open("https://jsfiddle.net/AlfaOne/532pdLhm/4/");
 });
