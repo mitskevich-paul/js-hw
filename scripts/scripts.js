@@ -200,7 +200,7 @@ for (let i = 0; i < ln1; ++i) {
 
 let fifthShowElement = document.getElementById('fifth_show');
 fifthShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/dar95jeh/");
+    window.open("https://jsfiddle.net/AlfaOne/dar95jeh/1/");
 });
 
 let sixthElement = document.getElementById('sixth');
