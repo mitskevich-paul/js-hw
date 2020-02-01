@@ -267,3 +267,13 @@ let sixthShowElement = document.getElementById('sixth_show');
 sixthShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/532pdLhm/5/");
 });
+
+let seventhElement = document.getElementById('seventh');
+seventhElement.addEventListener('click', event => {
+    window.open("https://mitskevich-paul.github.io/calc/");
+});
+let seventhShowElement = document.getElementById('seventh_show');
+seventhShowElement.addEventListener('click', event => {
+    window.open("https://jsfiddle.net/AlfaOne/teshfadj/42/");
+});
+});
