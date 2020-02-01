@@ -276,4 +276,3 @@ let seventhShowElement = document.getElementById('seventh_show');
 seventhShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/teshfadj/42/");
 });
-});
