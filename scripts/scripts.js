@@ -243,7 +243,7 @@ sixthShowElement.addEventListener('click', event => {
 
 let seventhElement = document.getElementById('seventh');
 seventhElement.addEventListener('click', event => {
-    window.open("https://mitskevich-paul.github.io/calc/");
+    window.open("https://jsfiddle.net/AlfaOne/v8yq3L4t/");
 });
 let seventhShowElement = document.getElementById('seventh_show');
 seventhShowElement.addEventListener('click', event => {
