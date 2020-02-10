@@ -252,5 +252,10 @@ seventhShowElement.addEventListener('click', event => {
 
 let eigthShowElement = document.getElementById('eigth');
 eigthShowElement.addEventListener('click', event => {
-    window.open("https://jsfiddle.net/AlfaOne/4uyam9n1/11/");
+    window.open("https://jsfiddle.net/AlfaOne/4uyam9n1/5/");
+});
+
+let ninghtShowElement = document.getElementById('ninght');
+ninghtShowElement.addEventListener('click', event => {
+    window.open("https://jsfiddle.net/AlfaOne/pyrqc58j/11/");
 });
