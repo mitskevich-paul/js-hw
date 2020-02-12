@@ -259,3 +259,13 @@ let ninghtShowElement = document.getElementById('ninght');
 ninghtShowElement.addEventListener('click', event => {
     window.open("https://jsfiddle.net/AlfaOne/pyrqc58j/11/");
 });
+
+let tenthShowElement = document.getElementById('tenth');
+tenthShowElement.addEventListener('click', event => {
+    window.open("https://jsfiddle.net/AlfaOne/o7c3Lkdn/3/");
+});
+
+let eleventhShowElement = document.getElementById('eleventh');
+eleventhShowElement.addEventListener('click', event => {
+    window.open("https://jsfiddle.net/AlfaOne/yg5cqmjf/4/");
+});
