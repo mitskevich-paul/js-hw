@@ -86,3 +86,9 @@ let twelfthShowElement = document.getElementById('twelfth');
 twelfthShowElement.addEventListener('click', () => {
     window.open("https://jsfiddle.net/AlfaOne/u8hef5vk/");
 });
+
+let thirteenShowElement = document.getElementById('thirteen');
+thirteenShowElement.addEventListener('click', () => {
+    window.open("https://jsfiddle.net/AlfaOne/f4dno3c8/");
+});
+
