@@ -89,6 +89,16 @@ twelfthShowElement.addEventListener('click', () => {
 
 let thirteenShowElement = document.getElementById('thirteen');
 thirteenShowElement.addEventListener('click', () => {
-    window.open("https://jsfiddle.net/AlfaOne/f4dno3c8/");
+    window.open("https://jsfiddle.net/AlfaOne/pzmbwrga/9/");
+});
+
+let fourteenShowElement = document.getElementById('fourteen');
+fourteenShowElement.addEventListener('click', () => {
+    window.open("https://jsfiddle.net/AlfaOne/h2c6gy3z/15/");
+});
+
+let fiftheenShowElement = document.getElementById('fiftheen');
+fiftheenShowElement.addEventListener('click', () => {
+    window.open("https://jsfiddle.net/AlfaOne/8r7sub3n/1/");
 });
 
