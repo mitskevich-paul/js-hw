@@ -94,11 +94,11 @@ thirteenShowElement.addEventListener('click', () => {
 
 let fourteenShowElement = document.getElementById('fourteen');
 fourteenShowElement.addEventListener('click', () => {
-    window.open("https://jsfiddle.net/AlfaOne/h2c6gy3z/15/");
+    window.open("https://codepen.io/pawel-mickewich/pen/gOpggeg");
 });
 
 let fiftheenShowElement = document.getElementById('fiftheen');
 fiftheenShowElement.addEventListener('click', () => {
-    window.open("https://jsfiddle.net/AlfaOne/8r7sub3n/2/");
+    window.open("https://codepen.io/pawel-mickewich/pen/abOpoWq");
 });
 
