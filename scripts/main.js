@@ -102,3 +102,19 @@ fiftheenShowElement.addEventListener('click', () => {
     window.open("https://codepen.io/pawel-mickewich/pen/abOpoWq");
 });
 
+let sixtheenShowElement = document.getElementById('sixtheen');
+sixtheenShowElement.addEventListener('click', () => {
+    window.open("https://mitskevich-paul.github.io/clock/");
+    window.open("https://codepen.io/pawel-mickewich/pen/OJVpLqJ");
+});
+
+let seventheenShowElement = document.getElementById('seventheen');
+seventheenShowElement.addEventListener('click', () => {
+    window.open("https://codepen.io/pawel-mickewich/pen/eYNveWM");
+});
+
+let svgexampShowElement = document.getElementById('svgexamp');
+svgexampShowElement.addEventListener('click', () => {
+    window.open("https://mitskevich-paul.github.io/svg/");
+});
+
