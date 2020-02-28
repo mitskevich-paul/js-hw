@@ -110,11 +110,16 @@ sixtheenShowElement.addEventListener('click', () => {
 
 let seventheenShowElement = document.getElementById('seventheen');
 seventheenShowElement.addEventListener('click', () => {
-    window.open("https://codepen.io/pawel-mickewich/pen/eYNveWM");
+    window.open("https://codepen.io/pawel-mickewich/pen/JjdNdvr");
 });
 
 let svgexampShowElement = document.getElementById('svgexamp');
 svgexampShowElement.addEventListener('click', () => {
     window.open("https://mitskevich-paul.github.io/svg/");
+});
+
+let eighteenShowElement = document.getElementById('eighteen');
+eighteenShowElement.addEventListener('click', () => {
+    window.open("https://codepen.io/pawel-mickewich/pen/GRJmeYR");
 });
 
