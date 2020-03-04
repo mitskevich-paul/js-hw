@@ -123,3 +123,7 @@ eighteenShowElement.addEventListener('click', () => {
     window.open("https://codepen.io/pawel-mickewich/pen/GRJmeYR");
 });
 
+let twentyShowElement = document.getElementById('twenty');
+twentyShowElement.addEventListener('click', () => {
+    window.open("https://codepen.io/pawel-mickewich/pen/jOPLYzG");
+});
